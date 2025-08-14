@@ -1,0 +1,21 @@
+
+@import "tailwindcss";
+
+
+ 
+@theme {
+  
+ --color-soft-white: #f7f5f3;
+ --color-forest-green: #1daa61;
+ --color-mint-cream: #d9fdd3;
+
+
+ --breakpoint-xs: 475px; 
+}
+
+@layer utilities {
+  .text-xxs {
+    font-size: 0.625rem; /* 10px */
+    line-height: 0.75rem; /* 12px */
+  }
+}
