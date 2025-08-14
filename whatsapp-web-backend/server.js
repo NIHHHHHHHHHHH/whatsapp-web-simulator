@@ -17,8 +17,13 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware setup
-app.use(cors());
+app.use(cors(corsOptions));
 app.use(express.json());
+
+const corsOptions = {
+    origin: process.env.FRONTEND_URI,
+    optionsSuccessStatus: 200 // For legacy browser support
+};
 
 // API routes
 app.use('/api', messageRoutes);
