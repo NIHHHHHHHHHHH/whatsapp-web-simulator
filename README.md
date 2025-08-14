@@ -1,6 +1,6 @@
 # WhatsApp Web Simulator
 
-**Demo:** [Live Application](https://vercel.com/nihhhs-projects/whatsapp-web-simulator-frontend)
+**Demo:** [Live Application](https://whatsapp-web-simulator-frontend.vercel.app/)
 
 ---
 
