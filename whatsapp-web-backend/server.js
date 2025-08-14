@@ -5,10 +5,6 @@ require('dotenv').config();
 const { connectDatabase } = require('./config/database');
 const messageRoutes = require('./routes/messages');
 
-// Silence console logs in production
-if (process.env.NODE_ENV === 'production') {
-  console.log = () => {};
-}
 
 const app = express();
 const PORT = process.env.PORT || 5000;

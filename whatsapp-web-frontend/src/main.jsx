@@ -1,7 +1,3 @@
-// Disable console.log in production
-if (import.meta.env.PROD) {
-  console.log = () => {};
-}
 
 
 
