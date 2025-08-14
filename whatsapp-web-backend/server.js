@@ -1,3 +1,10 @@
+// Silence console logs in production
+if (process.env.NODE_ENV === 'production') {
+  console.log = () => {};
+}
+
+
+
 // server.js
 const express = require('express');
 const cors = require('cors');

@@ -1,3 +1,7 @@
+// Silence console logs in production
+if (process.env.NODE_ENV === 'production') {
+  console.log = () => {};
+}
 
 
 
